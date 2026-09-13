@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Be Vietnam Pro", ui-sans-serif, system-ui, sans-serif;
+  --font-kana: "Zen Maru Gothic", "Noto Sans JP", ui-sans-serif, sans-serif;
+
+  --color-paper: #faf7f2;
+  --color-card: #ffffff;
+  --color-ink: #1b1c20;
+  --color-muted: #6b6f76;
+  --color-line: #e4ded4;
+  --color-accent: #4f46e5;
+  --color-accent-ink: #ffffff;
+  --color-accent-soft: #eceafd;
+  --color-ok: #157f4a;
+  --color-bad: #b4401f;
+}
+
+/* Dark mode theo thiết lập hệ điều hành: ghi đè biến, không phải viết dark: khắp nơi. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-paper: #14161a;
+    --color-card: #22252b;
+    --color-ink: #ecebe8;
+    --color-muted: #9aa0a8;
+    --color-line: #343841;
+    --color-accent: #a5a0fb;
+    --color-accent-ink: #14161a;
+    --color-accent-soft: #2c2b48;
+    --color-ok: #5fd39a;
+    --color-bad: #f0956f;
+  }
+}
+
+html {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Kana cỡ lớn cần nét sắc: tắt ligature thừa, giữ nét đều. */
+.kana {
+  font-family: var(--font-kana);
+  font-feature-settings: "palt" 0;
+  line-height: 1.15;
+}
+
+/* Không dùng vuốt, nên chặn luôn kéo ngang lạc tay trên điện thoại. */
+body {
+  overscroll-behavior-y: contain;
+}

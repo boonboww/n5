@@ -1,0 +1,860 @@
+[
+  {
+    "lesson": 12,
+    "kana": "かんたん",
+    "romaji": "kantan",
+    "meaning": "đơn giản, dễ (tính từ đuôi な)"
+  },
+  {
+    "lesson": 12,
+    "kana": "ちかい",
+    "romaji": "chikai",
+    "meaning": "gần"
+  },
+  {
+    "lesson": 12,
+    "kana": "とおい",
+    "romaji": "tooi",
+    "meaning": "xa"
+  },
+  {
+    "lesson": 12,
+    "kana": "はやい",
+    "romaji": "hayai",
+    "meaning": "nhanh, sớm"
+  },
+  {
+    "lesson": 12,
+    "kana": "おそい",
+    "romaji": "osoi",
+    "meaning": "chậm, muộn"
+  },
+  {
+    "lesson": 12,
+    "kana": "おおい",
+    "romaji": "ooi",
+    "meaning": "nhiều [người]"
+  },
+  {
+    "lesson": 12,
+    "kana": "すくない",
+    "romaji": "sukunai",
+    "meaning": "ít [người]"
+  },
+  {
+    "lesson": 12,
+    "kana": "あたたかい",
+    "romaji": "atatakai",
+    "meaning": "ấm"
+  },
+  {
+    "lesson": 12,
+    "kana": "すずしい",
+    "romaji": "suzushii",
+    "meaning": "mát"
+  },
+  {
+    "lesson": 12,
+    "kana": "あまい",
+    "romaji": "amai",
+    "meaning": "ngọt"
+  },
+  {
+    "lesson": 12,
+    "kana": "からい",
+    "romaji": "karai",
+    "meaning": "cay"
+  },
+  {
+    "lesson": 12,
+    "kana": "おもい",
+    "romaji": "omoi",
+    "meaning": "nặng"
+  },
+  {
+    "lesson": 12,
+    "kana": "かるい",
+    "romaji": "karui",
+    "meaning": "nhẹ"
+  },
+  {
+    "lesson": 12,
+    "kana": "いい",
+    "romaji": "ii",
+    "meaning": "thích, chọn, dùng [cà phê] (コーヒーが いいです = tôi chọn cà phê)"
+  },
+  {
+    "lesson": 12,
+    "kana": "きせつ",
+    "romaji": "kisetsu",
+    "meaning": "mùa"
+  },
+  {
+    "lesson": 12,
+    "kana": "はる",
+    "romaji": "haru",
+    "meaning": "mùa xuân"
+  },
+  {
+    "lesson": 12,
+    "kana": "なつ",
+    "romaji": "natsu",
+    "meaning": "mùa hè"
+  },
+  {
+    "lesson": 12,
+    "kana": "あき",
+    "romaji": "aki",
+    "meaning": "mùa thu"
+  },
+  {
+    "lesson": 12,
+    "kana": "ふゆ",
+    "romaji": "fuyu",
+    "meaning": "mùa đông"
+  },
+  {
+    "lesson": 12,
+    "kana": "てんき",
+    "romaji": "tenki",
+    "meaning": "thời tiết"
+  },
+  {
+    "lesson": 12,
+    "kana": "あめ",
+    "romaji": "ame",
+    "meaning": "mưa"
+  },
+  {
+    "lesson": 12,
+    "kana": "ゆき",
+    "romaji": "yuki",
+    "meaning": "tuyết"
+  },
+  {
+    "lesson": 12,
+    "kana": "くもり",
+    "romaji": "kumori",
+    "meaning": "có mây, trời nhiều mây"
+  },
+  {
+    "lesson": 12,
+    "kana": "ホテル",
+    "romaji": "hoteru",
+    "meaning": "khách sạn"
+  },
+  {
+    "lesson": 12,
+    "kana": "くうこう",
+    "romaji": "kuukou",
+    "meaning": "sân bay"
+  },
+  {
+    "lesson": 12,
+    "kana": "うみ",
+    "romaji": "umi",
+    "meaning": "biển, đại dương"
+  },
+  {
+    "lesson": 12,
+    "kana": "せかい",
+    "romaji": "sekai",
+    "meaning": "thế giới"
+  },
+  {
+    "lesson": 12,
+    "kana": "パーティー",
+    "romaji": "paatii",
+    "meaning": "tiệc (パーティーを します = tổ chức tiệc)"
+  },
+  {
+    "lesson": 12,
+    "kana": "おまつり",
+    "romaji": "omatsuri",
+    "meaning": "lễ hội (お có thể lược bỏ)"
+  },
+  {
+    "lesson": 12,
+    "kana": "すきやき",
+    "romaji": "sukiyaki",
+    "meaning": "Sukiyaki (món lẩu thịt bò, rau)"
+  },
+  {
+    "lesson": 12,
+    "kana": "さしみ",
+    "romaji": "sashimi",
+    "meaning": "Sashimi (món gỏi cá sống)"
+  },
+  {
+    "lesson": 12,
+    "kana": "おすし",
+    "romaji": "osushi",
+    "meaning": "Sushi (cơm trộn giấm có cá tươi ở trên)"
+  },
+  {
+    "lesson": 12,
+    "kana": "てんぷら",
+    "romaji": "tenpura",
+    "meaning": "Tempura (hải sản và rau chiên tẩm bột)"
+  },
+  {
+    "lesson": 12,
+    "kana": "ぶたにく",
+    "romaji": "butaniku",
+    "meaning": "thịt heo, thịt lợn"
+  },
+  {
+    "lesson": 12,
+    "kana": "とりにく",
+    "romaji": "toriniku",
+    "meaning": "thịt gà"
+  },
+  {
+    "lesson": 12,
+    "kana": "ぎゅうにく",
+    "romaji": "gyuuniku",
+    "meaning": "thịt bò"
+  },
+  {
+    "lesson": 12,
+    "kana": "レモン",
+    "romaji": "remon",
+    "meaning": "chanh"
+  },
+  {
+    "lesson": 12,
+    "kana": "いけばな",
+    "romaji": "ikebana",
+    "meaning": "nghệ thuật cắm hoa (いけばなを します = cắm hoa)"
+  },
+  {
+    "lesson": 12,
+    "kana": "もみじ",
+    "romaji": "momiji",
+    "meaning": "cây lá đỏ, lá đỏ"
+  },
+  {
+    "lesson": 12,
+    "kana": "どちら",
+    "romaji": "dochira",
+    "meaning": "cái nào (trong hai cái)"
+  },
+  {
+    "lesson": 12,
+    "kana": "どちらも",
+    "romaji": "dochiramo",
+    "meaning": "cả hai"
+  },
+  {
+    "lesson": 12,
+    "kana": "いちばん",
+    "romaji": "ichiban",
+    "meaning": "nhất"
+  },
+  {
+    "lesson": 12,
+    "kana": "ずっと",
+    "romaji": "zutto",
+    "meaning": "hơn hẳn, suốt"
+  },
+  {
+    "lesson": 12,
+    "kana": "はじめて",
+    "romaji": "hajimete",
+    "meaning": "lần đầu tiên"
+  },
+  {
+    "lesson": 12,
+    "kana": "ただいま",
+    "romaji": "tadaima",
+    "meaning": "Tôi đã về đây (nói khi về đến nhà)"
+  },
+  {
+    "lesson": 12,
+    "kana": "おかえりなさい",
+    "romaji": "okaerinasai",
+    "meaning": "Anh/Chị đã về đấy ạ (đáp lại người vừa về nhà)"
+  },
+  {
+    "lesson": 12,
+    "kana": "つかれました",
+    "romaji": "tsukaremashita",
+    "meaning": "Tôi mệt rồi"
+  },
+  {
+    "lesson": 13,
+    "kana": "あそびます",
+    "romaji": "asobimasu",
+    "meaning": "chơi"
+  },
+  {
+    "lesson": 13,
+    "kana": "およぎます",
+    "romaji": "oyogimasu",
+    "meaning": "bơi"
+  },
+  {
+    "lesson": 13,
+    "kana": "むかえます",
+    "romaji": "mukaemasu",
+    "meaning": "đón"
+  },
+  {
+    "lesson": 13,
+    "kana": "つかれます",
+    "romaji": "tsukaremasu",
+    "meaning": "mệt (nói trạng thái đang mệt thì dùng つかれました)"
+  },
+  {
+    "lesson": 13,
+    "kana": "けっこんします",
+    "romaji": "kekkon shimasu",
+    "meaning": "kết hôn, lập gia đình, cưới"
+  },
+  {
+    "lesson": 13,
+    "kana": "かいものします",
+    "romaji": "kaimono shimasu",
+    "meaning": "mua sắm, mua hàng"
+  },
+  {
+    "lesson": 13,
+    "kana": "しょくじします",
+    "romaji": "shokuji shimasu",
+    "meaning": "ăn cơm, dùng bữa"
+  },
+  {
+    "lesson": 13,
+    "kana": "さんぽします",
+    "romaji": "sanpo shimasu",
+    "meaning": "đi dạo [ở công viên]"
+  },
+  {
+    "lesson": 13,
+    "kana": "たいへん",
+    "romaji": "taihen",
+    "meaning": "vất vả, khó khăn, khổ (tính từ đuôi な)"
+  },
+  {
+    "lesson": 13,
+    "kana": "ほしい",
+    "romaji": "hoshii",
+    "meaning": "muốn có"
+  },
+  {
+    "lesson": 13,
+    "kana": "ひろい",
+    "romaji": "hiroi",
+    "meaning": "rộng"
+  },
+  {
+    "lesson": 13,
+    "kana": "せまい",
+    "romaji": "semai",
+    "meaning": "chật, hẹp"
+  },
+  {
+    "lesson": 13,
+    "kana": "プール",
+    "romaji": "puuru",
+    "meaning": "bể bơi"
+  },
+  {
+    "lesson": 13,
+    "kana": "かわ",
+    "romaji": "kawa",
+    "meaning": "sông"
+  },
+  {
+    "lesson": 13,
+    "kana": "びじゅつ",
+    "romaji": "bijutsu",
+    "meaning": "mỹ thuật"
+  },
+  {
+    "lesson": 13,
+    "kana": "つり",
+    "romaji": "tsuri",
+    "meaning": "việc câu cá (つりを します = đi câu cá)"
+  },
+  {
+    "lesson": 13,
+    "kana": "スキー",
+    "romaji": "sukii",
+    "meaning": "việc trượt tuyết (スキーを します = đi trượt tuyết)"
+  },
+  {
+    "lesson": 13,
+    "kana": "しゅうまつ",
+    "romaji": "shuumatsu",
+    "meaning": "cuối tuần"
+  },
+  {
+    "lesson": 13,
+    "kana": "おしょうがつ",
+    "romaji": "oshougatsu",
+    "meaning": "Tết (お có thể lược bỏ)"
+  },
+  {
+    "lesson": 13,
+    "kana": "ごろ",
+    "romaji": "goro",
+    "meaning": "khoảng ~ (dùng cho thời gian, vd: 3じごろ = khoảng 3 giờ)"
+  },
+  {
+    "lesson": 13,
+    "kana": "なにか",
+    "romaji": "nanika",
+    "meaning": "cái gì đó"
+  },
+  {
+    "lesson": 13,
+    "kana": "どこか",
+    "romaji": "dokoka",
+    "meaning": "đâu đó, chỗ nào đó"
+  },
+  {
+    "lesson": 13,
+    "kana": "のどが かわきます",
+    "romaji": "nodo ga kawakimasu",
+    "meaning": "khát (đang khát thì dùng のどが かわきました)"
+  },
+  {
+    "lesson": 13,
+    "kana": "おなかが すきます",
+    "romaji": "onaka ga sukimasu",
+    "meaning": "đói (đang đói thì dùng おなかが すきました)"
+  },
+  {
+    "lesson": 13,
+    "kana": "そう しましょう",
+    "romaji": "sou shimashou",
+    "meaning": "Nhất trí, hãy làm vậy đi (đồng ý với đề xuất)"
+  },
+  {
+    "lesson": 13,
+    "kana": "ごちゅうもんは",
+    "romaji": "go chuumon wa",
+    "meaning": "Anh/Chị dùng món gì ạ? (nhân viên phục vụ hỏi)"
+  },
+  {
+    "lesson": 13,
+    "kana": "ていしょく",
+    "romaji": "teishoku",
+    "meaning": "cơm suất, cơm phần"
+  },
+  {
+    "lesson": 13,
+    "kana": "ぎゅうどん",
+    "romaji": "gyuudon",
+    "meaning": "món cơm với thịt bò ở trên"
+  },
+  {
+    "lesson": 13,
+    "kana": "しょうしょう おまちください",
+    "romaji": "shoushou omachi kudasai",
+    "meaning": "Xin anh/chị vui lòng đợi một chút"
+  },
+  {
+    "lesson": 13,
+    "kana": "でございます",
+    "romaji": "de gozaimasu",
+    "meaning": "cách nói lịch sự của です"
+  },
+  {
+    "lesson": 13,
+    "kana": "べつべつに",
+    "romaji": "betsubetsu ni",
+    "meaning": "riêng, riêng ra (trả tiền riêng)"
+  },
+  {
+    "lesson": 14,
+    "kana": "つけます",
+    "romaji": "tsukemasu",
+    "meaning": "bật"
+  },
+  {
+    "lesson": 14,
+    "kana": "けします",
+    "romaji": "keshimasu",
+    "meaning": "tắt"
+  },
+  {
+    "lesson": 14,
+    "kana": "あけます",
+    "romaji": "akemasu",
+    "meaning": "mở"
+  },
+  {
+    "lesson": 14,
+    "kana": "しめます",
+    "romaji": "shimemasu",
+    "meaning": "đóng (cửa, cửa sổ)"
+  },
+  {
+    "lesson": 14,
+    "kana": "いそぎます",
+    "romaji": "isogimasu",
+    "meaning": "vội, gấp"
+  },
+  {
+    "lesson": 14,
+    "kana": "まちます",
+    "romaji": "machimasu",
+    "meaning": "đợi, chờ"
+  },
+  {
+    "lesson": 14,
+    "kana": "もちます",
+    "romaji": "mochimasu",
+    "meaning": "mang, cầm"
+  },
+  {
+    "lesson": 14,
+    "kana": "とります",
+    "romaji": "torimasu",
+    "meaning": "lấy, chuyền"
+  },
+  {
+    "lesson": 14,
+    "kana": "てつだいます",
+    "romaji": "tetsudaimasu",
+    "meaning": "giúp (làm việc gì)"
+  },
+  {
+    "lesson": 14,
+    "kana": "よびます",
+    "romaji": "yobimasu",
+    "meaning": "gọi"
+  },
+  {
+    "lesson": 14,
+    "kana": "はなします",
+    "romaji": "hanashimasu",
+    "meaning": "nói, nói chuyện"
+  },
+  {
+    "lesson": 14,
+    "kana": "つかいます",
+    "romaji": "tsukaimasu",
+    "meaning": "dùng, sử dụng"
+  },
+  {
+    "lesson": 14,
+    "kana": "とめます",
+    "romaji": "tomemasu",
+    "meaning": "dừng, đỗ"
+  },
+  {
+    "lesson": 14,
+    "kana": "みせます",
+    "romaji": "misemasu",
+    "meaning": "cho xem, trình"
+  },
+  {
+    "lesson": 14,
+    "kana": "おしえます",
+    "romaji": "oshiemasu",
+    "meaning": "nói, cho biết [địa chỉ]"
+  },
+  {
+    "lesson": 14,
+    "kana": "すわります",
+    "romaji": "suwarimasu",
+    "meaning": "ngồi"
+  },
+  {
+    "lesson": 14,
+    "kana": "たちます",
+    "romaji": "tachimasu",
+    "meaning": "đứng"
+  },
+  {
+    "lesson": 14,
+    "kana": "はいります",
+    "romaji": "hairimasu",
+    "meaning": "vào [quán giải khát]"
+  },
+  {
+    "lesson": 14,
+    "kana": "でます",
+    "romaji": "demasu",
+    "meaning": "ra, ra khỏi [quán giải khát]"
+  },
+  {
+    "lesson": 14,
+    "kana": "ふります",
+    "romaji": "furimasu",
+    "meaning": "mưa (trời mưa)"
+  },
+  {
+    "lesson": 14,
+    "kana": "コピーします",
+    "romaji": "kopii shimasu",
+    "meaning": "copy, phô-tô"
+  },
+  {
+    "lesson": 14,
+    "kana": "でんき",
+    "romaji": "denki",
+    "meaning": "điện, đèn điện"
+  },
+  {
+    "lesson": 14,
+    "kana": "エアコン",
+    "romaji": "eakon",
+    "meaning": "máy điều hòa (nhiệt độ)"
+  },
+  {
+    "lesson": 14,
+    "kana": "パスポート",
+    "romaji": "pasupooto",
+    "meaning": "hộ chiếu"
+  },
+  {
+    "lesson": 14,
+    "kana": "なまえ",
+    "romaji": "namae",
+    "meaning": "tên"
+  },
+  {
+    "lesson": 14,
+    "kana": "じゅうしょ",
+    "romaji": "juusho",
+    "meaning": "địa chỉ"
+  },
+  {
+    "lesson": 14,
+    "kana": "ちず",
+    "romaji": "chizu",
+    "meaning": "bản đồ"
+  },
+  {
+    "lesson": 14,
+    "kana": "しお",
+    "romaji": "shio",
+    "meaning": "muối"
+  },
+  {
+    "lesson": 14,
+    "kana": "さとう",
+    "romaji": "satou",
+    "meaning": "đường (gia vị)"
+  },
+  {
+    "lesson": 14,
+    "kana": "もんだい",
+    "romaji": "mondai",
+    "meaning": "câu hỏi, vấn đề"
+  },
+  {
+    "lesson": 14,
+    "kana": "こたえ",
+    "romaji": "kotae",
+    "meaning": "câu trả lời"
+  },
+  {
+    "lesson": 14,
+    "kana": "よみかた",
+    "romaji": "yomikata",
+    "meaning": "cách đọc"
+  },
+  {
+    "lesson": 14,
+    "kana": "かた",
+    "romaji": "kata",
+    "meaning": "cách ~ (hậu tố, vd: よみかた = cách đọc)"
+  },
+  {
+    "lesson": 14,
+    "kana": "まっすぐ",
+    "romaji": "massugu",
+    "meaning": "thẳng"
+  },
+  {
+    "lesson": 14,
+    "kana": "ゆっくり",
+    "romaji": "yukkuri",
+    "meaning": "chậm, thong thả, thoải mái"
+  },
+  {
+    "lesson": 14,
+    "kana": "すぐ",
+    "romaji": "sugu",
+    "meaning": "ngay, lập tức"
+  },
+  {
+    "lesson": 14,
+    "kana": "また",
+    "romaji": "mata",
+    "meaning": "lại"
+  },
+  {
+    "lesson": 14,
+    "kana": "あとで",
+    "romaji": "atode",
+    "meaning": "sau"
+  },
+  {
+    "lesson": 14,
+    "kana": "もうすこし",
+    "romaji": "mou sukoshi",
+    "meaning": "thêm một chút nữa"
+  },
+  {
+    "lesson": 14,
+    "kana": "もう",
+    "romaji": "mou",
+    "meaning": "thêm ~ (vd: もう いちど = thêm một lần nữa)"
+  },
+  {
+    "lesson": 14,
+    "kana": "さあ",
+    "romaji": "saa",
+    "meaning": "thôi nào (thúc giục, khuyến khích ai đó làm gì)"
+  },
+  {
+    "lesson": 14,
+    "kana": "あれ",
+    "romaji": "are",
+    "meaning": "Ôi! (cảm thán khi phát hiện điều gì lạ hoặc bất ngờ)"
+  },
+  {
+    "lesson": 14,
+    "kana": "おつり",
+    "romaji": "otsuri",
+    "meaning": "tiền thừa, tiền thối lại"
+  },
+  {
+    "lesson": 15,
+    "kana": "おきます",
+    "romaji": "okimasu",
+    "meaning": "đặt, để"
+  },
+  {
+    "lesson": 15,
+    "kana": "つくります",
+    "romaji": "tsukurimasu",
+    "meaning": "làm, chế tạo, sản xuất"
+  },
+  {
+    "lesson": 15,
+    "kana": "うります",
+    "romaji": "urimasu",
+    "meaning": "bán"
+  },
+  {
+    "lesson": 15,
+    "kana": "しります",
+    "romaji": "shirimasu",
+    "meaning": "biết"
+  },
+  {
+    "lesson": 15,
+    "kana": "すみます",
+    "romaji": "sumimasu",
+    "meaning": "sống, ở"
+  },
+  {
+    "lesson": 15,
+    "kana": "けんきゅうします",
+    "romaji": "kenkyuu shimasu",
+    "meaning": "nghiên cứu"
+  },
+  {
+    "lesson": 15,
+    "kana": "しりょう",
+    "romaji": "shiryou",
+    "meaning": "tài liệu, tư liệu"
+  },
+  {
+    "lesson": 15,
+    "kana": "カタログ",
+    "romaji": "katarogu",
+    "meaning": "ca-ta-lô"
+  },
+  {
+    "lesson": 15,
+    "kana": "じこくひょう",
+    "romaji": "jikokuhyou",
+    "meaning": "bảng giờ chạy tàu"
+  },
+  {
+    "lesson": 15,
+    "kana": "ふく",
+    "romaji": "fuku",
+    "meaning": "quần áo"
+  },
+  {
+    "lesson": 15,
+    "kana": "せいひん",
+    "romaji": "seihin",
+    "meaning": "sản phẩm"
+  },
+  {
+    "lesson": 15,
+    "kana": "ソフト",
+    "romaji": "sofuto",
+    "meaning": "phần mềm"
+  },
+  {
+    "lesson": 15,
+    "kana": "でんしじしょ",
+    "romaji": "denshijisho",
+    "meaning": "từ điển điện tử (kim từ điển)"
+  },
+  {
+    "lesson": 15,
+    "kana": "けいざい",
+    "romaji": "keizai",
+    "meaning": "kinh tế"
+  },
+  {
+    "lesson": 15,
+    "kana": "しやくしょ",
+    "romaji": "shiyakusho",
+    "meaning": "tòa thị chính"
+  },
+  {
+    "lesson": 15,
+    "kana": "こうこう",
+    "romaji": "koukou",
+    "meaning": "trường trung học phổ thông, trường cấp 3"
+  },
+  {
+    "lesson": 15,
+    "kana": "はいしゃ",
+    "romaji": "haisha",
+    "meaning": "nha sĩ"
+  },
+  {
+    "lesson": 15,
+    "kana": "どくしん",
+    "romaji": "dokushin",
+    "meaning": "độc thân"
+  },
+  {
+    "lesson": 15,
+    "kana": "すみません",
+    "romaji": "sumimasen",
+    "meaning": "xin lỗi"
+  },
+  {
+    "lesson": 15,
+    "kana": "みなさん",
+    "romaji": "minasan",
+    "meaning": "các anh chị, các bạn, quý vị"
+  },
+  {
+    "lesson": 15,
+    "kana": "おもいだします",
+    "romaji": "omoidashimasu",
+    "meaning": "nhớ lại, hồi tưởng lại"
+  },
+  {
+    "lesson": 15,
+    "kana": "いらっしゃいます",
+    "romaji": "irasshaimasu",
+    "meaning": "kính ngữ của います (có, ở, đến)"
+  }
+]

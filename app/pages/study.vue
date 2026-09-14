@@ -111,6 +111,15 @@ function submit() {
   }
 }
 
+/** Nhấn Shift + Enter để gõ lại từ hiện tại */
+function retry() {
+  cancelAdvance()
+  if (status.value === 'correct') {
+    correctCount.value = Math.max(0, correctCount.value - 1)
+  }
+  resetPrompt()
+}
+
 /** Cỡ kana co lại theo độ dài từ để từ dài không tràn ở màn 375px. */
 const kanaClass = computed(() => {
   const length = current.value?.kana.length ?? 0
@@ -292,6 +301,7 @@ const lessonLabel = computed(() =>
             autocomplete="off"
             spellcheck="false"
             autofocus
+            @keydown.shift.enter.prevent="retry"
             enterkeyhint="go"
             placeholder="gõ romaji"
             aria-label="Gõ romaji của từ"

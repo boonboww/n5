@@ -19,6 +19,7 @@ const flipped = ref(false)
 const ready = ref(false)
 
 const answer = ref('')
+const lastCheckedAnswer = ref('')
 const status = ref<'idle' | 'correct' | 'wrong'>('idle')
 const correctCount = ref(0)
 const input = useTemplateRef<HTMLInputElement>('input')
@@ -63,6 +64,7 @@ function shuffleRemaining() {
 
 function resetPrompt() {
   answer.value = ''
+  lastCheckedAnswer.value = ''
   status.value = 'idle'
   if (mode.value === 'typing') nextTick(() => input.value?.focus())
 }
@@ -96,30 +98,45 @@ function previous() {
 
 /** Enter: đang chờ thì chấm, đã sai rồi thì bấm tiếp sang từ sau. */
 function submit() {
-  if (status.value === 'wrong') {
+  const isUnchanged = answer.value === lastCheckedAnswer.value
+  const isEmpty = answer.value.trim() === ''
+
+  // Nếu đã chấm điểm (đúng/sai) mà user không gõ gì mới (rỗng hoặc y nguyên)
+  // thì Enter sẽ chuyển sang từ tiếp theo.
+  if (status.value !== 'idle' && (isUnchanged || isEmpty)) {
     next()
     return
   }
-  if (status.value === 'correct' || answer.value.trim() === '' || !current.value) return
+
+  if (isEmpty || !current.value) return
+
+  cancelAdvance()
+  lastCheckedAnswer.value = answer.value
 
   if (isRomajiMatch(answer.value, current.value.kana)) {
+    if (status.value !== 'correct') correctCount.value += 1
     status.value = 'correct'
-    correctCount.value += 1
     advanceTimer = setTimeout(next, 600)
   } else {
     status.value = 'wrong'
   }
 }
 
-/** Nhấn Shift + Enter để gõ lại từ hiện tại */
-function retry() {
-  if (status.value === 'idle') return
-  
+/** Nhấn Shift + Enter để kiểm tra và xóa input để gõ lại */
+function shiftSubmit() {
+  if (answer.value.trim() === '' || !current.value) return
+
   cancelAdvance()
-  if (status.value === 'correct') {
-    correctCount.value = Math.max(0, correctCount.value - 1)
+  lastCheckedAnswer.value = answer.value
+
+  if (isRomajiMatch(answer.value, current.value.kana)) {
+    if (status.value !== 'correct') correctCount.value += 1
+    status.value = 'correct'
+  } else {
+    status.value = 'wrong'
   }
-  resetPrompt()
+  
+  answer.value = ''
 }
 
 /** Cỡ kana co lại theo độ dài từ để từ dài không tràn ở màn 375px. */
@@ -303,7 +320,7 @@ const lessonLabel = computed(() =>
             autocomplete="off"
             spellcheck="false"
             autofocus
-            @keydown.shift.enter.prevent="retry"
+            @keydown.shift.enter.prevent="shiftSubmit"
             enterkeyhint="go"
             placeholder="gõ romaji"
             aria-label="Gõ romaji của từ"

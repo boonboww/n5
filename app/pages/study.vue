@@ -41,10 +41,23 @@ function cancelAdvance() {
  */
 function restart() {
   cancelAdvance()
-  queue.value = shuffle(wordsForLessons(lessonIds.value))
+  // Bỏ trộn mặc định để có thể học theo thứ tự, nhấn nút Trộn khi cần
+  queue.value = wordsForLessons(lessonIds.value)
   index.value = 0
   flipped.value = false
   correctCount.value = 0
+  resetPrompt()
+}
+
+function shuffleRemaining() {
+  cancelAdvance()
+  if (index.value >= queue.value.length - 1) return
+  const remaining = queue.value.slice(index.value)
+  queue.value = [
+    ...queue.value.slice(0, index.value),
+    ...shuffle(remaining)
+  ]
+  flipped.value = false
   resetPrompt()
 }
 
@@ -168,9 +181,19 @@ const lessonLabel = computed(() =>
         <NuxtLink to="/" class="-ml-2 flex min-h-11 items-center px-2 text-sm text-muted">
           ← Thoát
         </NuxtLink>
-        <p class="font-mono text-sm text-muted tabular-nums">
-          {{ index + 1 }} / {{ queue.length }}
-        </p>
+        <div class="flex items-center gap-3">
+          <button 
+            type="button" 
+            title="Trộn ngẫu nhiên các từ còn lại"
+            class="flex items-center justify-center rounded-lg p-2 text-muted transition-colors hover:bg-card hover:text-accent active:bg-line"
+            @click="shuffleRemaining"
+          >
+            <svg class="size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 18h1.4c1.3 0 2.5-.6 3.3-1.7l4.1-6.6c.7-1.1 2-1.7 3.3-1.7H22"/><path d="m18 2 4 4-4 4"/><path d="M2 6h1.9c1.5 0 2.9.9 3.6 2.2"/><path d="M22 18h-5.9c-1.3 0-2.6-.7-3.3-1.8l-.5-.8"/><path d="m18 14 4 4-4 4"/></svg>
+          </button>
+          <p class="font-mono text-sm text-muted tabular-nums">
+            {{ index + 1 }} / {{ queue.length }}
+          </p>
+        </div>
       </header>
 
       <!-- Flashcard: tấm thẻ là thứ duy nhất được nổi bật -->

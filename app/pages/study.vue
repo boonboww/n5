@@ -113,6 +113,8 @@ function submit() {
 
 /** Nhấn Shift + Enter để gõ lại từ hiện tại */
 function retry() {
+  if (status.value === 'idle') return
+  
   cancelAdvance()
   if (status.value === 'correct') {
     correctCount.value = Math.max(0, correctCount.value - 1)

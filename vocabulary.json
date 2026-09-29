@@ -856,5 +856,353 @@
     "kana": "いらっしゃいます",
     "romaji": "irasshaimasu",
     "meaning": "kính ngữ của います (có, ở, đến)"
+  },
+  {
+    "lesson": 16,
+    "kana": "のります",
+    "romaji": "norimasu",
+    "meaning": "đi, lên [tàu]"
+  },
+  {
+    "lesson": 16,
+    "kana": "おります",
+    "romaji": "orimasu",
+    "meaning": "xuống [tàu]"
+  },
+  {
+    "lesson": 16,
+    "kana": "のりかえます",
+    "romaji": "norikaemasu",
+    "meaning": "chuyển, đổi (tàu)"
+  },
+  {
+    "lesson": 16,
+    "kana": "あびます",
+    "romaji": "abimasu",
+    "meaning": "tắm [vòi hoa sen]"
+  },
+  {
+    "lesson": 16,
+    "kana": "いれます",
+    "romaji": "iremasu",
+    "meaning": "cho vào, bỏ vào"
+  },
+  {
+    "lesson": 16,
+    "kana": "だします",
+    "romaji": "dashimasu",
+    "meaning": "lấy ra, đưa ra, gửi"
+  },
+  {
+    "lesson": 16,
+    "kana": "おろします",
+    "romaji": "oroshimasu",
+    "meaning": "rút [tiền]"
+  },
+  {
+    "lesson": 16,
+    "kana": "はいります",
+    "romaji": "hairimasu",
+    "meaning": "vào [đại học]"
+  },
+  {
+    "lesson": 16,
+    "kana": "でます",
+    "romaji": "demasu",
+    "meaning": "ra, tốt nghiệp [đại học]"
+  },
+  {
+    "lesson": 16,
+    "kana": "おします",
+    "romaji": "oshimasu",
+    "meaning": "bấm, ấn"
+  },
+  {
+    "lesson": 16,
+    "kana": "のみます",
+    "romaji": "nomimasu",
+    "meaning": "uống (bia, rượu)"
+  },
+  {
+    "lesson": 16,
+    "kana": "はじめます",
+    "romaji": "hajimemasu",
+    "meaning": "bắt đầu"
+  },
+  {
+    "lesson": 16,
+    "kana": "けんがくします",
+    "romaji": "kengakushimasu",
+    "meaning": "tham quan kiến tập"
+  },
+  {
+    "lesson": 16,
+    "kana": "でんわします",
+    "romaji": "denwashimasu",
+    "meaning": "gọi điện thoại"
+  },
+  {
+    "lesson": 16,
+    "kana": "ジョギング",
+    "romaji": "jogingu",
+    "meaning": "việc chạy bộ (chạy bộ)"
+  },
+  {
+    "lesson": 16,
+    "kana": "かくにん",
+    "romaji": "kakunin",
+    "meaning": "sự xác nhận, sự kiểm tra lại (xác nhận)"
+  },
+  {
+    "lesson": 16,
+    "kana": "わかい",
+    "romaji": "wakai",
+    "meaning": "trẻ"
+  },
+  {
+    "lesson": 16,
+    "kana": "ながい",
+    "romaji": "nagai",
+    "meaning": "dài"
+  },
+  {
+    "lesson": 16,
+    "kana": "みじかい",
+    "romaji": "mijikai",
+    "meaning": "ngắn"
+  },
+  {
+    "lesson": 16,
+    "kana": "あかるい",
+    "romaji": "akarui",
+    "meaning": "sáng"
+  },
+  {
+    "lesson": 16,
+    "kana": "くらい",
+    "romaji": "kurai",
+    "meaning": "tối"
+  },
+  {
+    "lesson": 16,
+    "kana": "からだ",
+    "romaji": "karada",
+    "meaning": "người, cơ thể"
+  },
+  {
+    "lesson": 16,
+    "kana": "あたま",
+    "romaji": "atama",
+    "meaning": "đầu"
+  },
+  {
+    "lesson": 16,
+    "kana": "かみ",
+    "romaji": "kami",
+    "meaning": "tóc"
+  },
+  {
+    "lesson": 16,
+    "kana": "かお",
+    "romaji": "kao",
+    "meaning": "mặt"
+  },
+  {
+    "lesson": 16,
+    "kana": "め",
+    "romaji": "me",
+    "meaning": "mắt"
+  },
+  {
+    "lesson": 16,
+    "kana": "みみ",
+    "romaji": "mimi",
+    "meaning": "tai"
+  },
+  {
+    "lesson": 16,
+    "kana": "はな",
+    "romaji": "hana",
+    "meaning": "mũi"
+  },
+  {
+    "lesson": 16,
+    "kana": "くち",
+    "romaji": "kuchi",
+    "meaning": "miệng"
+  },
+  {
+    "lesson": 16,
+    "kana": "は",
+    "romaji": "ha",
+    "meaning": "răng"
+  },
+  {
+    "lesson": 16,
+    "kana": "おなか",
+    "romaji": "onaka",
+    "meaning": "bụng"
+  },
+  {
+    "lesson": 16,
+    "kana": "あし",
+    "romaji": "ashi",
+    "meaning": "chân"
+  },
+  {
+    "lesson": 16,
+    "kana": "せ",
+    "romaji": "se",
+    "meaning": "chiều cao (cơ thể)"
+  },
+  {
+    "lesson": 16,
+    "kana": "サービス",
+    "romaji": "saabisu",
+    "meaning": "dịch vụ"
+  },
+  {
+    "lesson": 16,
+    "kana": "シャワー",
+    "romaji": "shawaa",
+    "meaning": "vòi hoa sen"
+  },
+  {
+    "lesson": 16,
+    "kana": "みどり",
+    "romaji": "midori",
+    "meaning": "màu xanh lá cây, cây xanh"
+  },
+  {
+    "lesson": 16,
+    "kana": "おてら",
+    "romaji": "otera",
+    "meaning": "chùa"
+  },
+  {
+    "lesson": 16,
+    "kana": "じんじゃ",
+    "romaji": "jinja",
+    "meaning": "đền thờ đạo Thần"
+  },
+  {
+    "lesson": 16,
+    "kana": "キャッシュカード",
+    "romaji": "kyasshukaado",
+    "meaning": "thẻ rút tiền mặt, thẻ ATM"
+  },
+  {
+    "lesson": 16,
+    "kana": "あんしょうばんごう",
+    "romaji": "anshoubangou",
+    "meaning": "mã số bí mật (mật khẩu)"
+  },
+  {
+    "lesson": 16,
+    "kana": "きんがく",
+    "romaji": "kingaku",
+    "meaning": "số tiền, khoản tiền"
+  },
+  {
+    "lesson": 16,
+    "kana": "ボタン",
+    "romaji": "botan",
+    "meaning": "nút"
+  },
+  {
+    "lesson": 16,
+    "kana": "ばん",
+    "romaji": "ban",
+    "meaning": "số –"
+  },
+  {
+    "lesson": 16,
+    "kana": "どうやって",
+    "romaji": "douyatte",
+    "meaning": "làm thế nào ~"
+  },
+  {
+    "lesson": 16,
+    "kana": "どの",
+    "romaji": "dono",
+    "meaning": "~ nào (dùng đối với trường hợp từ ba thứ trở lên)"
+  },
+  {
+    "lesson": 16,
+    "kana": "どれ",
+    "romaji": "dore",
+    "meaning": "cái nào (dùng trong trường hợp ba cái hoặc nhiều hơn)"
+  },
+  {
+    "lesson": 16,
+    "kana": "まず",
+    "romaji": "mazu",
+    "meaning": "trước hết, đầu tiên"
+  },
+  {
+    "lesson": 16,
+    "kana": "つぎに",
+    "romaji": "tsugini",
+    "meaning": "tiếp theo, sau đó"
+  },
+  {
+    "lesson": 16,
+    "kana": "すごいですね",
+    "romaji": "sugoidesune",
+    "meaning": "Thật là tuyệt vời! / Kinh quá nhỉ!"
+  },
+  {
+    "lesson": 16,
+    "kana": "まだまだです",
+    "romaji": "madamada desu",
+    "meaning": "(Không), tôi còn phải cố gắng nhiều lắm."
+  },
+  {
+    "lesson": 16,
+    "kana": "おひきだしですか",
+    "romaji": "ohikidashidesuka",
+    "meaning": "Anh/Chị rút tiền ạ?"
+  },
+  {
+    "lesson": 16,
+    "kana": "JR",
+    "romaji": "JR",
+    "meaning": "Công ty Đường sắt Nhật Bản"
+  },
+  {
+    "lesson": 16,
+    "kana": "ゆきまつり",
+    "romaji": "yukimatsuri",
+    "meaning": "Lễ hội tuyết"
+  },
+  {
+    "lesson": 16,
+    "kana": "バンドン",
+    "romaji": "bandon",
+    "meaning": "Bandung (ở In-đô-nê-xi-a)"
+  },
+  {
+    "lesson": 16,
+    "kana": "フランケン",
+    "romaji": "furanken",
+    "meaning": "Franken (ở Đức)"
+  },
+  {
+    "lesson": 16,
+    "kana": "ベラクルス",
+    "romaji": "berakurusu",
+    "meaning": "Veracruz (ở Mexico)"
+  },
+  {
+    "lesson": 16,
+    "kana": "うめだ",
+    "romaji": "umeda",
+    "meaning": "tên một quận ở Osaka"
+  },
+  {
+    "lesson": 16,
+    "kana": "だいがくまえ",
+    "romaji": "daigakumae",
+    "meaning": "tên điểm dừng xe buýt giả định"
   }
 ]

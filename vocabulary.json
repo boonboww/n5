@@ -1,5 +1,371 @@
 [
   {
+    "lesson": 11,
+    "kana": "います",
+    "romaji": "imasu",
+    "meaning": "có [con] (こどもが います)"
+  },
+  {
+    "lesson": 11,
+    "kana": "います",
+    "romaji": "imasu",
+    "meaning": "ở [Nhật] (にほんに います)"
+  },
+  {
+    "lesson": 11,
+    "kana": "かかります",
+    "romaji": "kakarimasu",
+    "meaning": "mất, tốn (thời gian, tiền bạc)"
+  },
+  {
+    "lesson": 11,
+    "kana": "やすみます",
+    "romaji": "yasumimasu",
+    "meaning": "nghỉ [làm việc] (かいしゃを やすみます)"
+  },
+  {
+    "lesson": 11,
+    "kana": "ひとつ",
+    "romaji": "hitotsu",
+    "meaning": "một cái (đếm đồ vật nói chung)"
+  },
+  {
+    "lesson": 11,
+    "kana": "ふたつ",
+    "romaji": "futatsu",
+    "meaning": "hai cái"
+  },
+  {
+    "lesson": 11,
+    "kana": "みっつ",
+    "romaji": "mittsu",
+    "meaning": "ba cái"
+  },
+  {
+    "lesson": 11,
+    "kana": "よっつ",
+    "romaji": "yottsu",
+    "meaning": "bốn cái"
+  },
+  {
+    "lesson": 11,
+    "kana": "いつつ",
+    "romaji": "itsutsu",
+    "meaning": "năm cái"
+  },
+  {
+    "lesson": 11,
+    "kana": "むっつ",
+    "romaji": "muttsu",
+    "meaning": "sáu cái"
+  },
+  {
+    "lesson": 11,
+    "kana": "ななつ",
+    "romaji": "nanatsu",
+    "meaning": "bảy cái"
+  },
+  {
+    "lesson": 11,
+    "kana": "やっつ",
+    "romaji": "yattsu",
+    "meaning": "tám cái"
+  },
+  {
+    "lesson": 11,
+    "kana": "ここのつ",
+    "romaji": "kokonotsu",
+    "meaning": "chín cái"
+  },
+  {
+    "lesson": 11,
+    "kana": "とお",
+    "romaji": "too",
+    "meaning": "mười cái"
+  },
+  {
+    "lesson": 11,
+    "kana": "いくつ",
+    "romaji": "ikutsu",
+    "meaning": "mấy cái, bao nhiêu cái"
+  },
+  {
+    "lesson": 11,
+    "kana": "ひとり",
+    "romaji": "hitori",
+    "meaning": "một người"
+  },
+  {
+    "lesson": 11,
+    "kana": "ふたり",
+    "romaji": "futari",
+    "meaning": "hai người"
+  },
+  {
+    "lesson": 11,
+    "kana": "〜にん",
+    "romaji": "~nin",
+    "meaning": "~ người"
+  },
+  {
+    "lesson": 11,
+    "kana": "〜だい",
+    "romaji": "~dai",
+    "meaning": "~ cái, chiếc (máy móc, xe cộ,...)"
+  },
+  {
+    "lesson": 11,
+    "kana": "〜まい",
+    "romaji": "~mai",
+    "meaning": "~ tờ, tấm (vật mỏng, phẳng)"
+  },
+  {
+    "lesson": 11,
+    "kana": "〜かい",
+    "romaji": "~kai",
+    "meaning": "~ lần"
+  },
+  {
+    "lesson": 11,
+    "kana": "りんご",
+    "romaji": "ringo",
+    "meaning": "táo"
+  },
+  {
+    "lesson": 11,
+    "kana": "みかん",
+    "romaji": "mikan",
+    "meaning": "quýt"
+  },
+  {
+    "lesson": 11,
+    "kana": "サンドイッチ",
+    "romaji": "sandoitchi",
+    "meaning": "bánh sandwich"
+  },
+  {
+    "lesson": 11,
+    "kana": "カレーライス",
+    "romaji": "kareeraisu",
+    "meaning": "món cơm cà-ri"
+  },
+  {
+    "lesson": 11,
+    "kana": "アイスクリーム",
+    "romaji": "aisukuriimu",
+    "meaning": "kem"
+  },
+  {
+    "lesson": 11,
+    "kana": "きって",
+    "romaji": "kitte",
+    "meaning": "tem"
+  },
+  {
+    "lesson": 11,
+    "kana": "はがき",
+    "romaji": "hagaki",
+    "meaning": "bưu thiếp"
+  },
+  {
+    "lesson": 11,
+    "kana": "ふうとう",
+    "romaji": "fuutou",
+    "meaning": "phong bì"
+  },
+  {
+    "lesson": 11,
+    "kana": "りょうしん",
+    "romaji": "ryoushin",
+    "meaning": "bố mẹ (mình)"
+  },
+  {
+    "lesson": 11,
+    "kana": "きょうだい",
+    "romaji": "kyoudai",
+    "meaning": "anh chị em (mình)"
+  },
+  {
+    "lesson": 11,
+    "kana": "あに",
+    "romaji": "ani",
+    "meaning": "anh trai (mình)"
+  },
+  {
+    "lesson": 11,
+    "kana": "おにいさん",
+    "romaji": "oniisan",
+    "meaning": "anh trai (người khác)"
+  },
+  {
+    "lesson": 11,
+    "kana": "あね",
+    "romaji": "ane",
+    "meaning": "chị gái (mình)"
+  },
+  {
+    "lesson": 11,
+    "kana": "おねえさん",
+    "romaji": "oneesan",
+    "meaning": "chị gái (người khác)"
+  },
+  {
+    "lesson": 11,
+    "kana": "おとうと",
+    "romaji": "otouto",
+    "meaning": "em trai (mình)"
+  },
+  {
+    "lesson": 11,
+    "kana": "おとうとさん",
+    "romaji": "otoutosan",
+    "meaning": "em trai (người khác)"
+  },
+  {
+    "lesson": 11,
+    "kana": "いもうと",
+    "romaji": "imouto",
+    "meaning": "em gái (mình)"
+  },
+  {
+    "lesson": 11,
+    "kana": "いもうとさん",
+    "romaji": "imoutosan",
+    "meaning": "em gái (người khác)"
+  },
+  {
+    "lesson": 11,
+    "kana": "がいこく",
+    "romaji": "gaikoku",
+    "meaning": "nước ngoài"
+  },
+  {
+    "lesson": 11,
+    "kana": "りゅうがくせい",
+    "romaji": "ryuugakusei",
+    "meaning": "lưu học sinh, du học sinh"
+  },
+  {
+    "lesson": 11,
+    "kana": "クラス",
+    "romaji": "kurasu",
+    "meaning": "lớp học"
+  },
+  {
+    "lesson": 11,
+    "kana": "〜じかん",
+    "romaji": "~jikan",
+    "meaning": "~ tiếng, ~ giờ đồng hồ"
+  },
+  {
+    "lesson": 11,
+    "kana": "〜しゅうかん",
+    "romaji": "~shuukan",
+    "meaning": "~ tuần"
+  },
+  {
+    "lesson": 11,
+    "kana": "〜かげつ",
+    "romaji": "~kagetsu",
+    "meaning": "~ tháng"
+  },
+  {
+    "lesson": 11,
+    "kana": "〜ねん",
+    "romaji": "~nen",
+    "meaning": "~ năm"
+  },
+  {
+    "lesson": 11,
+    "kana": "〜ぐらい",
+    "romaji": "~gurai",
+    "meaning": "khoảng ~"
+  },
+  {
+    "lesson": 11,
+    "kana": "どのくらい",
+    "romaji": "donokurai",
+    "meaning": "bao lâu"
+  },
+  {
+    "lesson": 11,
+    "kana": "ぜんぶで",
+    "romaji": "zenbude",
+    "meaning": "tổng cộng"
+  },
+  {
+    "lesson": 11,
+    "kana": "みんな",
+    "romaji": "minna",
+    "meaning": "tất cả"
+  },
+  {
+    "lesson": 11,
+    "kana": "〜だけ",
+    "romaji": "~dake",
+    "meaning": "chỉ ~"
+  },
+  {
+    "lesson": 11,
+    "kana": "オーストラリア",
+    "romaji": "oosutoraria",
+    "meaning": "Úc (Australia)"
+  },
+  {
+    "lesson": 11,
+    "kana": "かしこまりました",
+    "romaji": "kashikomarimashita",
+    "meaning": "Tôi đã rõ rồi ạ (thưa ông/bà)"
+  },
+  {
+    "lesson": 11,
+    "kana": "いい おてんきですね",
+    "romaji": "ii otenkidesune",
+    "meaning": "Trời đẹp nhỉ"
+  },
+  {
+    "lesson": 11,
+    "kana": "おでかけですか",
+    "romaji": "odekakedesuka",
+    "meaning": "Anh/Chị đi ra ngoài đấy à?"
+  },
+  {
+    "lesson": 11,
+    "kana": "ちょっと 〜まで",
+    "romaji": "chotto ~made",
+    "meaning": "Tôi đi ~ một chút"
+  },
+  {
+    "lesson": 11,
+    "kana": "いっていらっしゃい",
+    "romaji": "itteirasshai",
+    "meaning": "Anh/Chị đi nhé (đi rồi lại về nhé)"
+  },
+  {
+    "lesson": 11,
+    "kana": "いってきます",
+    "romaji": "ittekimasu",
+    "meaning": "Tôi đi đây (tôi đi rồi sẽ về)"
+  },
+  {
+    "lesson": 11,
+    "kana": "ふなびん",
+    "romaji": "funabin",
+    "meaning": "(gửi) bằng đường biển"
+  },
+  {
+    "lesson": 11,
+    "kana": "こうくうびん",
+    "romaji": "koukuubin",
+    "meaning": "(gửi) bằng đường hàng không"
+  },
+  {
+    "lesson": 11,
+    "kana": "おねがいします",
+    "romaji": "onegaishimasu",
+    "meaning": "Nhờ anh/chị"
+  },
+  {
     "lesson": 12,
     "kana": "かんたん",
     "romaji": "kantan",

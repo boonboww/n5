@@ -22,6 +22,7 @@ const answer = ref('')
 const lastCheckedAnswer = ref('')
 const status = ref<'idle' | 'correct' | 'wrong'>('idle')
 const correctCount = ref(0)
+const skippedCount = ref(0)
 const input = useTemplateRef<HTMLInputElement>('input')
 
 const current = computed(() => queue.value[index.value])
@@ -47,6 +48,7 @@ function restart() {
   index.value = 0
   flipped.value = false
   correctCount.value = 0
+  skippedCount.value = 0
   resetPrompt()
 }
 
@@ -86,6 +88,33 @@ function next() {
   flipped.value = false
   index.value += 1
   resetPrompt()
+}
+
+/** Nhấn Shift (đơn lẻ) để bỏ qua từ hiện tại, không tính điểm. */
+function skip() {
+  cancelAdvance()
+  skippedCount.value += 1
+  flipped.value = false
+  index.value += 1
+  resetPrompt()
+}
+
+/**
+ * Theo dõi xem Shift có bị dùng kèm phím khác không.
+ * Nếu nhấn Shift rồi thả ra mà không kèm phím nào → skip.
+ */
+let shiftUsedWithOtherKey = false
+function onInputKeydown(e: KeyboardEvent) {
+  if (e.key === 'Shift') {
+    shiftUsedWithOtherKey = false
+  } else if (e.shiftKey) {
+    shiftUsedWithOtherKey = true
+  }
+}
+function onInputKeyup(e: KeyboardEvent) {
+  if (e.key === 'Shift' && !shiftUsedWithOtherKey) {
+    skip()
+  }
 }
 
 function previous() {
@@ -185,6 +214,8 @@ const lessonLabel = computed(() =>
         Xong <span class="font-semibold">{{ queue.length }} từ</span>
         <span v-if="mode === 'typing'" class="text-muted">
           · đúng {{ correctCount }}/{{ queue.length }}</span>
+        <span v-if="mode === 'typing' && skippedCount > 0" class="text-muted">
+          · bỏ qua {{ skippedCount }}</span>
         <span v-if="lessonLabel" class="text-muted"> · {{ lessonLabel }}</span>
       </p>
       <div class="w-full space-y-3">
@@ -320,6 +351,8 @@ const lessonLabel = computed(() =>
             autocomplete="off"
             spellcheck="false"
             autofocus
+            @keydown="onInputKeydown"
+            @keyup="onInputKeyup"
             @keydown.shift.enter.prevent="shiftSubmit"
             enterkeyhint="go"
             placeholder="gõ romaji"
